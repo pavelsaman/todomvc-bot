@@ -13,7 +13,7 @@ var todo = new function() {
         document.querySelector('.new-todo').value = value;
         document.querySelector('.new-todo').dispatchEvent(new Event('change',{
             bubbles: true
-        }))
+        }));
     };
 
     this.changeTodo = function(nth, value) {
